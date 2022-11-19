@@ -3,7 +3,7 @@ package brideglabz.com.HotelReservationSystem;
 import java.util.ArrayList;
 import java.util.List;
 
-public class HotelReservationSystem {
+public class HotelReservation {
     public static void main(String[] args) {
         System.out.println("----------Welcome to the Hotel reservation System program---------");
         List<Hotel> hotelDataList = new ArrayList<>();
@@ -17,13 +17,6 @@ public class HotelReservationSystem {
 
     }
 }
-/*Ability to add Hotel in a Hotel
-Reservation System with Name and
-rates for Regular Customer...
-- Program is written using IDE like IntelliJ/Eclipse/VS Code
-- Every UC is in a separate Git Branch and then merged with main
-- Every UC should have a corresponding Test Case. Here Employees should
-be added to payroll system using a Test Case
-- Naming Convention, Indentation, etc Code Hygiene will be checked during
-Review
-- Git Check In Comments and Version History will be monitored*/
+/*Ability to find the
+cheapest Hotel for a
+given Date Range - I/P – 10Sep2020, 11Sep2020 - O/P – Lakewood, Total Rates: $220*/
